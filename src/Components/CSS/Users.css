@@ -1,0 +1,52 @@
+/* Users.css */
+
+
+.users-container {
+    max-width: 800px; /* Limit the width of the container */
+    margin: auto; /* Center the container */
+    padding: 20px;
+    background-color: white; /* White background for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.he2{
+    text-align: center; /* Center the heading */
+    color: tomato; /* Main color for headings */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.contact-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: 0.3s; /* Smooth transition for hover effect */
+}
+
+.contact-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Darker gray on hover */
+}
+
+.contact-card h3 {
+    margin: 0; /* Remove default margin */
+    color: #333; /* Dark color for the name */
+}
+
+.contact-card p {
+    margin: 5px 0; /* Space between paragraphs */
+    color: #555; /* Slightly lighter color for details */
+}
+
+.contact-card .date {
+    font-size: 0.9rem; /* Smaller font for date */
+    color: #888; /* Lighter color for date */
+    margin-top: 10px; /* Space above the date */
+}
+
+.loading {
+    text-align: center; /* Center the loading text */
+    font-size: 1.2rem; /* Larger font for loading */
+    color: #333; /* Dark color for loading text */
+}

@@ -1,0 +1,154 @@
+.contact-container {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .info-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px; /* Increased padding for height */
+    margin: 0 15px; /* Increased gap between boxes */
+    background-color: #fff;
+    border-radius: 10px; /* Add border-radius */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    height: 250px; /* Add box shadow */
+  }
+  
+  .info-box i {
+    font-size: 30px; /* Increased icon size */
+    margin-bottom: 10px;
+    color: tomato;
+  }
+  
+  .info-box p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .contact-text {
+    text-align: center;
+    margin-bottom: 40px;
+    width: 750px; /* Increased margin to the bottom of the text */
+  }
+  
+  .contact-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .map-container {
+    flex: 1;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 590px;
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    height: 550px;
+    border: 0;
+  }
+  
+  .form-container {
+    flex: 1;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    max-height: 178px ;
+  }
+
+  .form-group .txt-ar{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    max-height: 178px !important;
+  }
+
+  
+  .submit-btn {
+    background-color: white;
+    color: tomato;
+    padding: 10px 20px;
+    border: 1px solid tomato;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: tomato;
+    color: white;
+    border: none;
+  }
+  .fii{
+    color: tomato;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    height: 65px;
+    width: 1440px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .fii{
+    color: tomato;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    height: 65px;
+    width: 1450px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .para{
+    text-align: justify;
+    text-align-last: left;
+    
+  }
+  .frm{
+    WIDTH: 600PX;
+    MARGIN-LEFT: 50PX;
+    border-radius: 10px; /* Add border-radius */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    height: 590px;
+
+  }
+.map{
+    width: 650px;
+    height: 550px;
+}
+.bg-1{
+    height: 500px;
+    width: 100%;
+    background: url('./bg1.png') no-repeat center center;
+    background-size: cover;
+}
+  
+  

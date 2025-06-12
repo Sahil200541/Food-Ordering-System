@@ -1,0 +1,269 @@
+/* Admin.css */
+
+.navbar {
+    background-color: white; /* White background for the navbar */
+  }
+  
+  .logo-text {
+    margin-left: 80px; /* Move logo a bit left */
+    font-weight: bold; /* Bold text for the logo name */
+    color: tomato; /* Logo text color */
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px; /* Space between logo image and text */
+  }
+  
+  .navbar-nav .nav-link {
+    color: tomato; /* Set color for nav links to tomato */
+    padding: 10px 15px; /* Padding for nav links */
+    margin: 0 10px; /* Margin to create a gap between menu items */
+    transition: transform 0.2s, color 0.3s; /* Smooth transition for hover effect */
+    font-size: 16px;
+    font-weight: bold; /* Set a base font size for the links */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: rgb(171, 7, 7) !important; /* Change color on hover to red */
+    transform: scale(1.09); /* Slightly increase size on hover */
+  }
+  
+  .navbar-nav .dropdown-toggle {
+    color: tomato !important; /* Color for dropdown toggle */
+  }
+  
+  .navbar-nav .dropdown-toggle:hover {
+    color: red !important; /* Change color on hover for dropdown toggle */
+  }
+  
+  .nav-dropdown .dropdown-item {
+    color: tomato !important; /* Color for dropdown items */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+  }
+  
+  .nav-dropdown .dropdown-item:hover {
+    background-color: rgba(255, 99, 71, 0.1); /* Light background on hover for dropdown items */
+    transform: scale(1.1); /* Slightly increase size on hover */
+    color: red !important; /* Change color on hover for dropdown items */
+  }
+  
+  .login-btn {
+    color: tomato; /* Login button text color */
+    border: 1px solid tomato; /* Border color for login button */
+    background-color: transparent; /* Transparent background */
+    transition: background-color 0.3s, color 0.3s;
+    margin-right: 80px;
+    border-radius: 5px;
+    padding: 6px 10px; /* Smooth transition for hover effect */
+  }
+  
+  .login-btn:hover {
+    background-color: tomato; /* Background color on hover */
+    color: white;
+    border: none; /* Change text color on hover */
+  }
+
+/* Home.css */
+.home {
+  text-align: center;
+  color: tomato;
+    margin-top: 35px;
+}
+
+.offers-display {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.offers-list {
+  display: flex;
+  flex-wrap: wrap;
+   padding: 0px 55px;
+   max-width: 1478px;
+}
+
+.offer-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px; /* Add margin for spacing */
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1 0 21%; /* Adjusts the basis for flex items */
+  max-width: 300px; /* Set a max width for each card */
+  margin-right: 15px;
+}
+
+.offer-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.offer-description {
+  margin-top: 12px;
+  font-size: 16px;
+  color: #333;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.4; /* Adds spacing between lines */
+  word-wrap: break-word; /* Break long words to prevent overflow */
+  white-space: normal; /* Allows text to wrap */
+}
+@media (max-width: 768px) {
+  .offer-card {
+      flex: 1 0 46%; /* 2 cards per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .offer-card {
+      flex: 1 0 96%; /* 1 card per row on very small screens */
+  }
+}
+
+
+.footer-content {
+  max-width: 1200px; /* Maximum width for the footer content */
+  margin: 0 auto; /* Center the footer content */
+}
+
+.footer p {
+  margin: 0; /* Remove default margin */
+  font-size: 14px; /* Font size for the copyright text */
+}
+
+.social-links {
+  margin-top: 10px; /* Space between text and social links */
+}
+
+.social-links a {
+  color: white; /* White text for links */
+  margin: 0 10px; /* Space between links */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.social-links a:hover {
+  color: #ff6347; /* Change color on hover */
+}
+
+
+/* Navbar */
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+      font-size: 14px; /* Smaller font for nav links */
+      padding: 8px 10px;
+  }
+  .logo-text {
+      font-size: 18px;
+  }
+}
+
+
+
+/* Navbar */
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    font-size: 14px; /* Smaller font for nav links */
+    padding: 8px 10px;
+  }
+  .logo-text {
+    font-size: 18px;
+    margin-left: 0; /* Adjust logo position */
+  }
+  .navbar-nav .dropdown-toggle {
+    font-size: 14px; /* Smaller font for dropdown */
+  }
+  .login-btn {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column; /* Stack navbar items vertically */
+    text-align: center;
+  }
+  .navbar-brand img {
+    width: 30px; /* Smaller logo */
+    margin-right: 0;
+  }
+  .logo-text {
+    font-size: 16px;
+  }
+  .login-btn {
+    font-size: 14px;
+    padding: 6px 10px;
+    border-radius: 5px;
+  }
+}
+
+
+/* Home Content */
+@media (max-width: 768px) {
+  .home {
+    font-size: 18px; /* Adjust font size */
+    margin-top: 30px; /* Slightly reduce margin */
+  }
+
+  .offers-list {
+    padding: 0 20px; /* Reduce padding on smaller screens */
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .offer-card {
+    flex: 1 0 46%; /* 2 cards per row */
+    max-width: 100%;
+  }
+
+  .offer-description {
+    font-size: 14px; /* Reduce font size */
+    margin-top: 10px; /* Reduce space above description */
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 480px) {
+  .offers-list {
+    padding: 0 10px; /* Reduce padding even further */
+  }
+
+  .offer-card {
+    flex: 1 0 96%; /* 1 card per row on small screens */
+    max-width: 100%;
+    margin: 10px auto; /* Center card on screen */
+  }
+
+  .offer-description {
+    font-size: 12px; /* Further reduce font size */
+  }
+}
+
+/* Footer */
+@media (max-width: 768px) {
+  .footer-content {
+    padding: 0 15px; /* Add more space in footer */
+  }
+
+  .social-links a {
+    font-size: 14px; /* Smaller font size */
+    margin: 0 8px; /* Reduce space between links */
+  }
+}
+
+@media (max-width: 480px) {
+  .footer p {
+    font-size: 12px; /* Smaller font size for footer text */
+  }
+
+  .social-links a {
+    font-size: 12px; /* Even smaller font size */
+    margin: 0 5px; /* Tighten spacing between icons */
+  }
+}

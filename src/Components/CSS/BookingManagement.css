@@ -1,0 +1,64 @@
+/* AdminPanel.css */
+
+.admin-panel {
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .orders-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .order-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    position: relative;
+  }
+  
+  .order-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .order-buttons {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: darkred;
+  }
+  
+  .status-confirmed,
+  .status-canceled {
+    font-weight: bold;
+    color: green; /* Use a suitable color for confirmed */
+  }
+  
+  .status-canceled {
+    color: red; /* Use a suitable color for canceled */
+  }
+  

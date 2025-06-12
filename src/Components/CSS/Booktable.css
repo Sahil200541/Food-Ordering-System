@@ -1,0 +1,112 @@
+  .booking-form-container {
+    background-color: white;
+    padding: 30px;
+    background-color: rgba(255, 99, 71, 0.5);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .booking-form h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    text-align: center;
+    /* color: #333; */
+  }
+  
+  .booking-form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .booking-form input,
+  .booking-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-se;
+  }
+  
+  .booking-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .booking-form button:hover {
+    background-color: rgb(120, 22, 5);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .booking-form-container {
+      padding: 25px;
+      max-width: 100%;
+      margin: 10px;
+    }
+  
+    .booking-form h2 {
+      font-size: 24px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .booking-form-container {
+      padding: 15px;
+    }
+  
+    .booking-form h2 {
+      font-size: 20px;
+    }
+  
+    .booking-form input,
+    .booking-form select,
+    .booking-form button {
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+.hello{
+    width: 509px;
+}
+.ffm{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.booking-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    resize: vertical;
+    height: 100px; /* Adjust the height if necessary */
+  }
+.img-cont{
+    width: 1481px;
+    background: url('bat.jpg') no-repeat center center/cover;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  

@@ -1,0 +1,52 @@
+.container-1{
+    display: flex;
+    justify-content: flex-end;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .feedback-form {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+    width: 100%; /* Make it full-width on small screens */
+  }
+  
+  @media (min-width: 768px) {
+    .feedback-form {
+      width: 90%; /* Adjust the width on medium screens */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .feedback-form {
+      width: 100%; /* Max width to make it compact on large screens */
+    }
+  }
+  
+  .feedback-form .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .feedback-form button {
+    background-color: tomato;
+    border: none;
+    color: white;
+  }
+  
+  .feedback-form button:hover {
+    background-color:rgb(120, 22, 5);
+  }
+  .wd{
+    width: 1328px;
+  }
+  .img-cont{
+    background: url('feedback_img.jpg') no-repeat center center/cover;
+  }
+  .swarna{
+    background-color: rgba(255, 99, 71, 0.3);
+    color: white;
+  }
+.lbl-wh{
+  color: white !important;
+}

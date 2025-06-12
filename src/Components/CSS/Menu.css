@@ -1,0 +1,220 @@
+.menu-container {
+    padding: 20px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.menu-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.menu-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.menu-name {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.menu-pricing {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.real-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 10px;
+}
+
+.discount-price {
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.discount-percentage {
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.toggle-description {
+    margin-top: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.menu-description {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+
+
+/* Search bar and filter */
+
+.search-filter-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for contrast */
+    border-bottom: 1px solid #ddd; /* Optional: Add a border below */
+  }
+  
+  .filter-container {
+    position: relative;
+  }
+  
+  .filter-btn {
+    background-color: white !important; /* Button color */
+    color: tomato; /* Text color */
+    border: 1px solid tomato !important;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  .filter-btn:hover{
+    background-color: tomato !important; /* Button color */
+    color: white; /* Text color */
+    border: none !important;
+  }
+  .filter-btn:active{
+    background-color: tomato !important; /* Button color */
+    color: white !important; /* Text color */
+    border: none ;
+  }
+  .filter-btn:focus{
+    background-color: tomato !important; /* Button color */
+    color: white !important; /* Text color */
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  .filter-dropdown {
+    width: 250px;
+    height: 394px;
+    position: absolute;
+    top: 100%; /* Position below the button */
+    left: 0;
+    background: white; /* Background color */
+    border: 1px solid #ddd; /* Border for dropdown */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    padding: 15px;
+    z-index: 1000; /* Keep it on top of other elements */
+  }
+  
+  .filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Styles for Select Dropdowns */
+  select {
+    width: 100%; /* Full width of the container */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    background-color: #f8f8f8; /* Light background color */
+    transition: border 0.3s ease;
+  
+    /* Add some styles to make it look better on focus */
+  }
+  
+  select:focus {
+    border: 1px solid tomato; /* Change border color on focus */
+    outline: none; /* Remove outline */
+  }
+  
+  .close-filter {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .close-filter i {
+    font-size: 20px; /* Size of the close icon */
+    color: tomato; /* Color of the close icon */
+  }
+  
+  .search-bar {
+    padding: 10px;
+    border: 1px solid tomato; /* Border for the search input */
+    border-radius: 5px; /* Rounded corners */
+    width: 300px; /* Width of the search input */
+    margin-left: 20px; /* Space between filter button and search bar */
+  }
+  
+  .apply-filter-btn {
+    background-color: tomato !important; /* Button color */
+    color: white; /* Text color */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px; /* Space above the button */
+  }
+  .apply-filter-btn:hover{
+    background-color: rgb(190, 57, 34) !important; /* Button color */
+    color: white; /* Text color */
+    border: none;
+  }
+  .apply-filter-btn:active{
+    background-color: tomato !important; /* Button color */
+    color: white !important; /* Text color */
+    border: none ;
+  }
+  .apply-filter-btn:focus{
+    background-color: tomato !important; /* Button color */
+    color: white !important; /* Text color */
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  
+
+
+
+  /* Cross icon */
+
+  .close-filter {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: tomato; /* Color of the close icon */
+    font-size: 20px; /* Size of the close icon */
+  }
+  
+  .filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  

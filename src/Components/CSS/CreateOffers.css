@@ -1,0 +1,66 @@
+.create-offer-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-offer-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input[type="file"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-group input[type="file"]:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #ff6347;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.create-offer-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: tomato;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.create-offer-btn:hover {
+    background-color: tomato;
+    color: white;
+    border: none;
+}
+

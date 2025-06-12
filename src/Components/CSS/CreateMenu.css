@@ -1,0 +1,109 @@
+/* Container for the form */
+.create-menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Styling the form itself */
+.create-menu-form {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Form title */
+.create-menu-form h2 {
+    /* text-align: center; */
+    color: #ff6347;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Individual form field */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Labels for input fields */
+.form-group label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+
+/* Input fields and textarea */
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #555;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+/* Focused input styles */
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #ff6347;
+}
+
+/* Styling for the textarea */
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Button styling */
+.create-menu-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: white;
+    color: tomato;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid tomato;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.create-menu-btn:hover {
+    background-color: tomato;
+    color: white;
+    border: none;
+}
+
+/* Add some margin to the button */
+.create-menu-btn:focus {
+    outline: none;
+}
+
+/* Responsive behavior for smaller screens */
+@media (max-width: 768px) {
+    .create-menu-form {
+        padding: 20px;
+    }
+
+    .create-menu-form h2 {
+        font-size: 24px;
+    }
+
+    .create-menu-btn {
+        font-size: 16px;
+    }
+}

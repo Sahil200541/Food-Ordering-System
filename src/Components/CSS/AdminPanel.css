@@ -1,0 +1,19 @@
+/* src/CSS/Admin.css */
+.sidebar {
+    background-color: darkorange;
+    height: 659px;
+    padding-top: 20px;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  /* src/CSS/AdminPanel.css */
+/* src/CSS/AdminPanel.css */
+.admin-header {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+

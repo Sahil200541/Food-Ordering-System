@@ -1,0 +1,87 @@
+/* FoodItems.css */
+.food-items-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.food-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5px;
+   /* Adds gap between sliding items */
+}
+
+.food-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 70%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin-bottom: 15px; /* Adds gap between the circle and food name */
+}
+
+.food-circle:hover {
+  transform: scale(1.1);
+}
+
+.food-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.food-name {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  width: 150px; /* Ensures food name stays aligned under the circle */
+  display: flex;
+  justify-content: center; /* Centers text horizontally */
+}
+
+/* .slick-prev, .slick-next {
+  background-color: #333;
+  border-radius: 50%;
+  padding: 10px;
+  z-index: 1;
+}
+
+.slick-prev:hover, .slick-next:hover {
+  background-color: #555;
+}
+
+.slick-dots li button:before {
+  color: #333;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #555;
+} */
+.slick-prev:before{
+  font-family: 'slick';
+  font-size: 25px;
+  line-height: 1;
+  opacity: 1;
+  color: #fff;
+  position: absolute;
+  top: -1px;
+  right: -3px;
+}
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 25px;
+    line-height: 1;
+    opacity: 1;
+    color: #fff;
+    position: absolute;
+    top: -1px;
+    right: -2px;
+}

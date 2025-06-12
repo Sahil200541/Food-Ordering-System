@@ -1,0 +1,30 @@
+.admin-pic{
+    background: url('adminpic.jpg') no-repeat center center/cover;
+}
+.admin-h{
+    color: tomato;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5rem;
+}
+.admin-h1{
+    color: tomato;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+.btn-hov{
+    background-color: tomato;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn-hov:hover{
+    background-color: rgb(117, 23, 6);
+    color: white;
+    border: none;
+}

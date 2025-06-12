@@ -1,0 +1,102 @@
+.bg{
+    height: 500px;
+    width: 100%;
+    background: url('./about-bg1.jpg') no-repeat center center;
+    background-size: cover;
+}
+.fi{
+    color: tomato;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    height: 65px;
+    width: 1440px;
+    text-align: center;
+    margin-top: 50px;
+  }
+.abt-txt{
+    color: rgb(199, 70, 48);
+    font-size: 80px;
+    position: absolute;
+    top:250px;
+    left: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.justified-text {
+    text-align: justify;
+    text-align-last: left; /* Ensures the last line is centered */
+  }
+.crcl{
+    height: 190px;
+    width: 190px;
+}
+  
+
+
+
+@media (max-width: 600px) {
+    .abt-txt {
+        font-size: 40px; /* Adjust font size for mobile */
+        top: 180px; /* Adjust top position */
+        left: 30px; /* Adjust left position */
+    }
+
+    .fi {
+        font-size: 24px; /* Reduce font size for header */
+        margin-top: 30px;
+    }
+
+    .bg {
+        height: 300px; /* Adjust background height for mobile */
+    }
+
+    .crcl {
+        height: 150px; /* Smaller circle image */
+        width: 150px;
+    }
+}
+
+/* Tablet devices */
+@media (max-width: 768px) {
+    .abt-txt {
+        font-size: 60px; /* Adjust font size for tablets */
+        top: 200px;
+        left: 50px;
+    }
+
+    .fi {
+        font-size: 32px; /* Adjust font size for header */
+        margin-top: 40px;
+    }
+
+    .bg {
+        height: 400px; /* Adjust background height for tablets */
+    }
+
+    .crcl {
+        height: 170px; /* Slightly smaller circle image */
+        width: 170px;
+    }
+}
+
+/* Desktop devices */
+@media (min-width: 1024px) {
+    .abt-txt {
+        font-size: 80px; /* Keep larger font size for desktop */
+        top: 250px;
+        left: 80px;
+    }
+
+    .fi {
+        font-size: 40px; /* Increase header font size for desktop */
+        margin-top: 50px;
+    }
+
+    .bg {
+        height: 500px; /* Keep large background height for desktop */
+    }
+
+    .crcl {
+        height: 190px; /* Large circle image for desktop */
+        width: 190px;
+    }
+}
