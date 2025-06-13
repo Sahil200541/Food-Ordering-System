@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import { NavLink, useNavigate } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import axios from 'axios';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
