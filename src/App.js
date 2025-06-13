@@ -1,6 +1,6 @@
 // src/App.js
 import React from "react";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 // ALL PAGES IMPORT HERE -- 
 import Home from "./Components/JSX/Home";
@@ -28,30 +28,30 @@ function App() {
   return (
 
       <div className="App">
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
-            <Route path="/admin-pannel" element={<AdminPanel />} />  {/* Admin Panel Route */}
-            <Route path="/" element={<Home />} />
-            <Route path="/menu" element={<Menu />} />
-            <Route path="/about" element={<AboutUs />} />
-            <Route path="/feedback" element={<FeedbackForm />} />
-            <Route path="/book-table" element={<Booktable />} />
-            <Route path="/contact" element={<ContactUs />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
-            <Route path="/fp" element={<EmailInput />} />
-            <Route path="/verify-otp" element={<Verify />} />
-            <Route path="/reset-password" element={<PasswordReset />} />
-            <Route path="/payment" element={<Payment />} />
-            <Route path="/order-status" element={<OrderStatus />} />
-            <Route path="/login-admin" element={<Loginadmin />} />
-            <Route path="/register-admin" element={<Registeradmin />} />
-            <Route path="/admin-page" element={<AdminPage />} />
-            <Route path="/FP-admin" element={<EmailInputad />} />
-            <Route path="/verify-otp-admin" element={<Verifyad />} />
-            <Route path="/reset-password-admin" element={<PasswordResetad />} />
+            <Route exact path='/admin-pannel' element={<AdminPanel />} />  {/* Admin Panel Route */}
+            <Route exact path='/' element={<Home />} />
+            <Route exact path='/menu' element={<Menu />} />
+            <Route exact path='/about' element={<AboutUs />} />
+            <Route exact path='/feedback' element={<FeedbackForm />} />
+            <Route exact path='/book-table' element={<Booktable />} />
+            <Route exact path='/contact' element={<ContactUs />} />
+            <Route exact path='/login' element={<Login />} />
+            <Route exact path='/register' element={<Register />} />
+            <Route exact path='/fp' element={<EmailInput />} />
+            <Route exact path='/verify-otp' element={<Verify />} />
+            <Route exact path='/reset-password' element={<PasswordReset />} />
+            <Route exact path='/payment' element={<Payment />} />
+            <Route exact path='/order-status' element={<OrderStatus />} />
+            <Route exact path='/login-admin' element={<Loginadmin />} />
+            <Route exact path='/register-admin' element={<Registeradmin />} />
+            <Route exact path='/admin-page' element={<AdminPage />} />
+            <Route exact path='/FP-admin' element={<EmailInputad />} />
+            <Route exact path='/verify-otp-admin' element={<Verifyad />} />
+            <Route exact path='/reset-password-admin' element={<PasswordResetad />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </div>
   );
 }
