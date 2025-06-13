@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../CSS/Booktable.css";
 import { Navbar, Nav, NavDropdown, Button, Container } from 'react-bootstrap';
 import { NavLink, useNavigate } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import '../CSS/Admin.css';
 import axios from "axios";
 import logo1 from "./Img/logo1.jpg";
