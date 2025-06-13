@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Navbar, Nav, NavDropdown, Button, Container } from 'react-bootstrap';
 import { NavLink, useNavigate } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import logo1 from "./Img/logo1.jpg";
 import '../CSS/Admin.css';
 import axios from 'axios';
