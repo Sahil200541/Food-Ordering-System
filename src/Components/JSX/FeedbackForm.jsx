@@ -223,9 +223,15 @@ const FeedbackForm = () => {
                   Book a Table
                 </NavLink>
                 <NavDropdown title="More" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="/feedback" style={{ color: 'tomato', fontWeight: 'bold' }}>Feedback</NavDropdown.Item>
-                  <NavDropdown.Item href="/contact" style={{ color: 'tomato', fontWeight: 'bold' }}>Contact Us</NavDropdown.Item>
-                  <NavDropdown.Item href="/order-status" style={{ color: 'tomato', fontWeight: 'bold' }}>Check Order Status</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/feedback" style={{ color: 'tomato', fontWeight: 'bold' }}>
+                    Feedback
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/contact" style={{ color: 'tomato', fontWeight: 'bold' }}>
+                    Contact Us
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/order-status" style={{ color: 'tomato', fontWeight: 'bold' }}>
+                    Check Order Status
+                  </NavDropdown.Item>
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>
