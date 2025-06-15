@@ -25,12 +25,6 @@ A fully responsive, modern, and user-friendly web-based Food Ordering System bui
 
 ---
 
-## 📸 Screenshots
-
-> (Add screenshots here to show UI/UX, menu, order system, etc.)
-
----
-
 ## 🛠️ Installation
 
 **Installation Guide for Food Ordering System Project**
