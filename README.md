@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# 🍽️ Food Ordering System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully responsive, modern, and user-friendly web-based Food Ordering System built using **MERN Stack (MongoDB, Express, React, Node.js)**. It allows users to browse menus, place orders, and manage food delivery in a seamless digital environment.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🔍 Browse restaurant menu with images and prices
+- 🛒 Add to cart & manage orders
+- 🧾 Checkout and place food orders
+- 🔐 User authentication (Register/Login)
+- 🧑 Admin dashboard for managing orders and menu
+- 📱 Fully responsive UI for mobile and desktop
+- ⚡ Fast and optimized performance
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 Technologies Used
 
-### `npm test`
+- **Frontend:** React.js, Bootstrap, CSS, Framer Motion
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Other Tools:** Axios, JWT, Mongoose
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📸 Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> (Add screenshots here to show UI/UX, menu, order system, etc.)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Installation
 
-### `npm run eject`
+**Installation Guide for Food Ordering System Project**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the repository**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   Open your terminal or command prompt and run the following command to clone the project:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   git clone [https://github.com/Sahil200541/Food-Ordering-System.git](https://github.com/Sahil200541/Food-Ordering-System.git)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   Navigate into the project folder:
 
-## Learn More
+   cd Food-Ordering-System
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Install Frontend Dependencies**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   Go to the frontend directory:
 
-### Code Splitting
+   cd client
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   Then install all required frontend packages:
 
-### Analyzing the Bundle Size
+   npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. **Install Backend Dependencies**
 
-### Making a Progressive Web App
+   Go back to the root folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   cd ..
 
-### Advanced Configuration
+   Then navigate into the backend directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   cd server
 
-### Deployment
+   Install all backend dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   npm install
 
-### `npm run build` fails to minify
+4. **Set Up Environment Variables**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   Inside the `server` folder, create a file named `.env`
+
+   Add the following environment variables:
+
+   MONGO\_URI=your\_mongodb\_connection\_string
+   JWT\_SECRET=your\_jwt\_secret\_key
+   PORT=5000
+
+   (Replace the placeholder values with your actual MongoDB URI and secret key.)
+
+5. **Run the Project**
+
+   Go back to the root folder of the project:
+
+   cd ..
+
+   Run both frontend and backend together (if using a combined dev script):
+
+   npm run dev
+
+   If not, run backend and frontend in separate terminals:
+
+   First terminal:
+
+   * Go to server folder: `cd server`
+   * Start backend server: `npm start`
+
+   Second terminal:
+
+   * Go to client folder: `cd client`
+   * Start frontend app: `npm start`
+
